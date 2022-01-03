@@ -1,0 +1,65 @@
+{
+  "mod_elements": [
+    {
+      "name": "OnPlayerDeath",
+      "type": "procedure",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_player_respawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OnPlayerJoin",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_player_join",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {}
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "nether_spawn",
+    "modName": "Nether Spawn",
+    "version": "0.0.3",
+    "description": "For Teahy",
+    "author": "iisnowcreeper on yt",
+    "websiteURL": "https://youtube.com/iisnowcreeper",
+    "license": "None",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "credits": "the chicken wings that kept me alive",
+    "modElementsPackage": "teahy",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

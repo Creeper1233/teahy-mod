@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[37,)"
+license="None"
+
+[[mods]]
+modId="nether_spawn"
+version="0.0.3"
+displayName="Nether Spawn"
+credits="the chicken wings that kept me alive"
+displayURL="https://youtube.com/iisnowcreeper"
+authors="iisnowcreeper on yt"
+description='''
+For Teahy
+'''
+
+[[dependencies.nether_spawn]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.17.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
